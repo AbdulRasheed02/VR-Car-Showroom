@@ -1,0 +1,460 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/CollisionScript.cs
+    - Assets/CollisionScript.cs.meta
+    - Assets/ExampleAssets.meta
+    - Assets/ExampleAssets/Materials.meta
+    - Assets/ExampleAssets/Materials/Controller.mat
+    - Assets/ExampleAssets/Materials/Controller.mat.meta
+    - Assets/ExampleAssets/Materials/Grid.mat
+    - Assets/ExampleAssets/Materials/Grid.mat.meta
+    - Assets/ExampleAssets/Materials/Skybox Light.mat
+    - Assets/ExampleAssets/Materials/Skybox Light.mat.meta
+    - Assets/ExampleAssets/Models.meta
+    - Assets/ExampleAssets/Models/2016 Custom Range Rover Sport FBX.fbx
+    - Assets/ExampleAssets/Models/2016 Custom Range Rover Sport FBX.fbx.meta
+    - Assets/ExampleAssets/Models/AC Cobra.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Audi R8.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Audi R8/Audi R8- Studio Render Scene.blend
+    - Assets/ExampleAssets/Models/AC Cobra/Audi R8/Audi R8- Studio Render Scene.blend.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Audi R8/Audi R8.blend
+    - Assets/ExampleAssets/Models/AC Cobra/Audi R8/Audi R8.blend.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Audi R8/Models.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Audi R8/Models/Audi R8.dae
+    - Assets/ExampleAssets/Models/AC Cobra/Audi R8/Models/Audi R8.dae.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Audi R8/Models/Audi R8.fbx
+    - Assets/ExampleAssets/Models/AC Cobra/Audi R8/Models/Audi R8.fbx.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Audi R8/Render.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Audi R8/Render/Audi R8-2.png
+    - Assets/ExampleAssets/Models/AC Cobra/Audi R8/Render/Audi R8-2.png.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Audi R8/Render/Audi R8.png
+    - Assets/ExampleAssets/Models/AC Cobra/Audi R8/Render/Audi R8.png.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Audi R8/Textures.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Audi R8/Textures/Audi R8-black.jpg
+    - Assets/ExampleAssets/Models/AC Cobra/Audi R8/Textures/Audi R8-black.jpg.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Audi R8/Textures/Audi R8-white.jpg
+    - Assets/ExampleAssets/Models/AC Cobra/Audi R8/Textures/Audi R8-white.jpg.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Audi R8/Textures/Back Headlight.jpg
+    - Assets/ExampleAssets/Models/AC Cobra/Audi R8/Textures/Back Headlight.jpg.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Audi R8/Textures/Tire.tga
+    - Assets/ExampleAssets/Models/AC Cobra/Audi R8/Textures/Tire.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/BOTTOM MASK.tga
+    - Assets/ExampleAssets/Models/AC Cobra/BOTTOM MASK.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/BOTTOM.tga
+    - Assets/ExampleAssets/Models/AC Cobra/BOTTOM.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/BRAKDISC.tga
+    - Assets/ExampleAssets/Models/AC Cobra/BRAKDISC.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/BRIDE BLACK.tga
+    - Assets/ExampleAssets/Models/AC Cobra/BRIDE BLACK.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/CARBON.tga
+    - Assets/ExampleAssets/Models/AC Cobra/CARBON.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/CREDITS.txt
+    - Assets/ExampleAssets/Models/AC Cobra/CREDITS.txt.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Compteur.png
+    - Assets/ExampleAssets/Models/AC Cobra/Compteur.png.meta
+    - Assets/ExampleAssets/Models/AC Cobra/DOOR MASK.tga
+    - Assets/ExampleAssets/Models/AC Cobra/DOOR MASK.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/DOOR.tga
+    - Assets/ExampleAssets/Models/AC Cobra/DOOR.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/DOORLINE MASK.tga
+    - Assets/ExampleAssets/Models/AC Cobra/DOORLINE MASK.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/DOORLINE.tga
+    - Assets/ExampleAssets/Models/AC Cobra/DOORLINE.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/DRIVER CUTOUT.tga
+    - Assets/ExampleAssets/Models/AC Cobra/DRIVER CUTOUT.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/DRIVER SPORT.tga
+    - Assets/ExampleAssets/Models/AC Cobra/DRIVER SPORT.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/DRIVER.tga
+    - Assets/ExampleAssets/Models/AC Cobra/DRIVER.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Evoix2.FBX
+    - Assets/ExampleAssets/Models/AC Cobra/Evoix2.FBX.meta
+    - Assets/ExampleAssets/Models/AC Cobra/HOODTRUNK MASK.tga
+    - Assets/ExampleAssets/Models/AC Cobra/HOODTRUNK MASK.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/HOODTRUNK.tga
+    - Assets/ExampleAssets/Models/AC Cobra/HOODTRUNK.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX BADGING MASK.tga
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX BADGING MASK.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX BADGING NORMAL.tga
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX BADGING NORMAL.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX BADGING.tga
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX BADGING.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX BRAKELIGHT GLASS.tga
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX BRAKELIGHT GLASS.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX BRAKELIGHT MASK.tga
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX BRAKELIGHT MASK.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX BRAKELIGHT.tga
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX BRAKELIGHT.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX ENGINE NORMAL.tga
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX ENGINE NORMAL.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX ENGINE.tga
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX ENGINE.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX HEADLIGHT GLASS.tga
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX HEADLIGHT GLASS.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX HEADLIGHT MASK.tga
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX HEADLIGHT MASK.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX HEADLIGHT.tga
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX HEADLIGHT.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX INTERIOR.tga
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX INTERIOR.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX MISC MIRROR.tga
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX MISC MIRROR.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX MISC.tga
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX MISC.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX RIM MASK.tga
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX RIM MASK.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX RIM.tga
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX RIM.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX.FBX
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX.FBX.meta
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX.bak
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX.bak.meta
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX.max
+    - Assets/ExampleAssets/Models/AC Cobra/LANCEREVOX.max.meta
+    - Assets/ExampleAssets/Models/AC Cobra/LICENSE MASK.tga
+    - Assets/ExampleAssets/Models/AC Cobra/LICENSE MASK.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/LICENSE.tga
+    - Assets/ExampleAssets/Models/AC Cobra/LICENSE.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Models.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Models/1.3DS
+    - Assets/ExampleAssets/Models/AC Cobra/Models/1.3DS.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Models/1.mtl
+    - Assets/ExampleAssets/Models/AC Cobra/Models/1.mtl.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Models/1.obj
+    - Assets/ExampleAssets/Models/AC Cobra/Models/1.obj.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Models/2010071618474806235.max
+    - Assets/ExampleAssets/Models/AC Cobra/Models/2010071618474806235.max.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Models/20140328044852950137.jpg
+    - Assets/ExampleAssets/Models/AC Cobra/Models/20140328044852950137.jpg.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Models/20140328044852950139.jpg
+    - Assets/ExampleAssets/Models/AC Cobra/Models/20140328044852950139.jpg.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Models/20140328044852950403.jpg
+    - Assets/ExampleAssets/Models/AC Cobra/Models/20140328044852950403.jpg.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Models/20140328044852950612.jpg
+    - Assets/ExampleAssets/Models/AC Cobra/Models/20140328044852950612.jpg.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Models/20140328044852951634.jpg
+    - Assets/ExampleAssets/Models/AC Cobra/Models/20140328044852951634.jpg.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Models/bumpbee.jpg
+    - Assets/ExampleAssets/Models/AC Cobra/Models/bumpbee.jpg.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Models/chrbump.jpg
+    - Assets/ExampleAssets/Models/AC Cobra/Models/chrbump.jpg.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Models/grillbumps.jpg
+    - Assets/ExampleAssets/Models/AC Cobra/Models/grillbumps.jpg.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Models/orange.jpg
+    - Assets/ExampleAssets/Models/AC Cobra/Models/orange.jpg.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Models/rover-logo.jpg
+    - Assets/ExampleAssets/Models/AC Cobra/Models/rover-logo.jpg.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Models/rover-red.jpg
+    - Assets/ExampleAssets/Models/AC Cobra/Models/rover-red.jpg.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Models/tablica.jpg
+    - Assets/ExampleAssets/Models/AC Cobra/Models/tablica.jpg.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Models/tire.jpg
+    - Assets/ExampleAssets/Models/AC Cobra/Models/tire.jpg.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Shelby.blend
+    - Assets/ExampleAssets/Models/AC Cobra/Shelby.blend.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Shelby.fbx
+    - Assets/ExampleAssets/Models/AC Cobra/Shelby.fbx.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Shelby.mtl
+    - Assets/ExampleAssets/Models/AC Cobra/Shelby.mtl.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Shelby.obj
+    - Assets/ExampleAssets/Models/AC Cobra/Shelby.obj.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Shelby1.png
+    - Assets/ExampleAssets/Models/AC Cobra/Shelby1.png.meta
+    - Assets/ExampleAssets/Models/AC Cobra/ShelbyWD.3ds
+    - Assets/ExampleAssets/Models/AC Cobra/ShelbyWD.3ds.meta
+    - Assets/ExampleAssets/Models/AC Cobra/ShelbyWD.blend
+    - Assets/ExampleAssets/Models/AC Cobra/ShelbyWD.blend.meta
+    - Assets/ExampleAssets/Models/AC Cobra/ShelbyWD.dae
+    - Assets/ExampleAssets/Models/AC Cobra/ShelbyWD.dae.meta
+    - Assets/ExampleAssets/Models/AC Cobra/ShelbyWD.stl
+    - Assets/ExampleAssets/Models/AC Cobra/ShelbyWD.stl.meta
+    - Assets/ExampleAssets/Models/AC Cobra/Shelby_logo.png
+    - Assets/ExampleAssets/Models/AC Cobra/Shelby_logo.png.meta
+    - Assets/ExampleAssets/Models/AC Cobra/TIRE BUMP.tga
+    - Assets/ExampleAssets/Models/AC Cobra/TIRE BUMP.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/TIRE.tga
+    - Assets/ExampleAssets/Models/AC Cobra/TIRE.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/TIREBACK.tga
+    - Assets/ExampleAssets/Models/AC Cobra/TIREBACK.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/TREAD BUMP.tga
+    - Assets/ExampleAssets/Models/AC Cobra/TREAD BUMP.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/TREAD.tga
+    - Assets/ExampleAssets/Models/AC Cobra/TREAD.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/WDEFROST.tga
+    - Assets/ExampleAssets/Models/AC Cobra/WDEFROST.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW F DECALS.tga
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW F DECALS.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW F SKIN.tga
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW F SKIN.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW FL DECALS.tga
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW FL DECALS.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW FL SKIN.tga
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW FL SKIN.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW FR DECALS.tga
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW FR DECALS.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW FR SKIN.tga
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW FR SKIN.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW FRONT MASK.tga
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW FRONT MASK.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW FRONT.tga
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW FRONT.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW MASK.tga
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW MASK.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW R DECALS.tga
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW R DECALS.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW R SKIN.tga
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW R SKIN.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW RL DECALS.tga
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW RL DECALS.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW RL SKIN.tga
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW RL SKIN.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW RR DECALS.tga
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW RR DECALS.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW RR SKIN.tga
+    - Assets/ExampleAssets/Models/AC Cobra/WINDOW RR SKIN.tga.meta
+    - Assets/ExampleAssets/Models/AC Cobra/pirelli_pzero_255_35_r20_sidewall (1).png
+    - Assets/ExampleAssets/Models/AC Cobra/pirelli_pzero_255_35_r20_sidewall (1).png.meta
+    - Assets/ExampleAssets/Models/AC Cobra/tumblr_mrwhlwvuZv1rhi6xto1_1280.jpg
+    - Assets/ExampleAssets/Models/AC Cobra/tumblr_mrwhlwvuZv1rhi6xto1_1280.jpg.meta
+    - Assets/ExampleAssets/Models/AC Cobra/uploads_files_2787791_Mercedes+Benz+GLS+580.blend
+    - Assets/ExampleAssets/Models/AC Cobra/uploads_files_2787791_Mercedes+Benz+GLS+580.blend.meta
+    - Assets/ExampleAssets/Models/AC Cobra/uploads_files_2787791_Mercedes+Benz+GLS+580.fbx
+    - Assets/ExampleAssets/Models/AC Cobra/uploads_files_2787791_Mercedes+Benz+GLS+580.fbx.meta
+    - Assets/ExampleAssets/Models/AC Cobra/uploads_files_2787791_Mercedes+Benz+GLS+580.obj
+    - Assets/ExampleAssets/Models/AC Cobra/uploads_files_2787791_Mercedes+Benz+GLS+580.obj.meta
+    - Assets/ExampleAssets/Models/Audi R8.meta
+    - Assets/ExampleAssets/Models/Audi R8/Audi R8- Studio Render Scene.blend
+    - Assets/ExampleAssets/Models/Audi R8/Audi R8- Studio Render Scene.blend.meta
+    - Assets/ExampleAssets/Models/Audi R8/Audi R8.blend
+    - Assets/ExampleAssets/Models/Audi R8/Audi R8.blend.meta
+    - Assets/ExampleAssets/Models/Audi R8/Models.meta
+    - Assets/ExampleAssets/Models/Audi R8/Models/Audi R8.dae
+    - Assets/ExampleAssets/Models/Audi R8/Models/Audi R8.dae.meta
+    - Assets/ExampleAssets/Models/Audi R8/Models/Audi R8.fbx
+    - Assets/ExampleAssets/Models/Audi R8/Models/Audi R8.fbx.meta
+    - Assets/ExampleAssets/Models/Audi R8/Render.meta
+    - Assets/ExampleAssets/Models/Audi R8/Render/Audi R8-2.png
+    - Assets/ExampleAssets/Models/Audi R8/Render/Audi R8-2.png.meta
+    - Assets/ExampleAssets/Models/Audi R8/Render/Audi R8.png
+    - Assets/ExampleAssets/Models/Audi R8/Render/Audi R8.png.meta
+    - Assets/ExampleAssets/Models/Audi R8/Textures.meta
+    - Assets/ExampleAssets/Models/Audi R8/Textures/Audi R8-black.jpg
+    - Assets/ExampleAssets/Models/Audi R8/Textures/Audi R8-black.jpg.meta
+    - Assets/ExampleAssets/Models/Audi R8/Textures/Audi R8-white.jpg
+    - Assets/ExampleAssets/Models/Audi R8/Textures/Audi R8-white.jpg.meta
+    - Assets/ExampleAssets/Models/Audi R8/Textures/Back Headlight.jpg
+    - Assets/ExampleAssets/Models/Audi R8/Textures/Back Headlight.jpg.meta
+    - Assets/ExampleAssets/Models/Audi R8/Textures/Tire.tga
+    - Assets/ExampleAssets/Models/Audi R8/Textures/Tire.tga.meta
+    - Assets/ExampleAssets/Models/Catherham_Seven_Sigma_FBX.FBX
+    - Assets/ExampleAssets/Models/Catherham_Seven_Sigma_FBX.FBX.meta
+    - Assets/ExampleAssets/Models/Dodge.meta
+    - Assets/ExampleAssets/Models/Dodge/Dodge_Chellenger_SRT10_FBX.FBX
+    - Assets/ExampleAssets/Models/Dodge/Dodge_Chellenger_SRT10_FBX.FBX.meta
+    - Assets/ExampleAssets/Models/Evoix2.FBX
+    - Assets/ExampleAssets/Models/Evoix2.FBX.meta
+    - Assets/ExampleAssets/Models/LANCEREVOX.FBX
+    - Assets/ExampleAssets/Models/LANCEREVOX.FBX.meta
+    - Assets/ExampleAssets/Models/Porsche_911_GT2.obj
+    - Assets/ExampleAssets/Models/Porsche_911_GT2.obj.meta
+    - Assets/ExampleAssets/Models/Porsche_918_Spyder.fbx
+    - Assets/ExampleAssets/Models/Porsche_918_Spyder.fbx.meta
+    - Assets/ExampleAssets/Models/XRControllerLeft.fbx
+    - Assets/ExampleAssets/Models/XRControllerLeft.fbx.meta
+    - Assets/ExampleAssets/Models/XRControllerRight.fbx
+    - Assets/ExampleAssets/Models/XRControllerRight.fbx.meta
+    - Assets/ExampleAssets/Models/astonAston MArtinV12 Vantage S 2016 .fbx
+    - Assets/ExampleAssets/Models/astonAston MArtinV12 Vantage S 2016 .fbx.meta
+    - Assets/ExampleAssets/Models/chalnger111.fbx
+    - Assets/ExampleAssets/Models/chalnger111.fbx.meta
+    - Assets/ExampleAssets/Models/fbx.meta
+    - Assets/ExampleAssets/Models/fbx/class2010.FBX
+    - Assets/ExampleAssets/Models/fbx/class2010.FBX.meta
+    - Assets/ExampleAssets/Models/gtr (2).fbx
+    - Assets/ExampleAssets/Models/gtr (2).fbx.meta
+    - Assets/ExampleAssets/Models/gtr.fbx
+    - Assets/ExampleAssets/Models/gtr.fbx.meta
+    - Assets/ExampleAssets/Models/uploads_files_2787791_Mercedes+Benz+GLS+580.fbx
+    - Assets/ExampleAssets/Models/uploads_files_2787791_Mercedes+Benz+GLS+580.fbx.meta
+    - Assets/ExampleAssets/Models/uploads_files_2787791_Mercedes+Benz+GLS+580.obj
+    - Assets/ExampleAssets/Models/uploads_files_2787791_Mercedes+Benz+GLS+580.obj.meta
+    - Assets/ExampleAssets/Models/uploads_files_2792345_Koenigsegg.fbx
+    - Assets/ExampleAssets/Models/uploads_files_2792345_Koenigsegg.fbx.meta
+    - Assets/ExampleAssets/Models/uploads_files_3103192_mustang+gt+2015+sketch.fbx
+    - Assets/ExampleAssets/Models/uploads_files_3103192_mustang+gt+2015+sketch.fbx.meta
+    - Assets/ExampleAssets/Models/uploads_files_4053985_porsche+918+spyder+2016.fbx
+    - Assets/ExampleAssets/Models/uploads_files_4053985_porsche+918+spyder+2016.fbx.meta
+    - Assets/ExampleAssets/Models/uploads_files_4053985_porsche+918+spyder+2016.obj
+    - Assets/ExampleAssets/Models/uploads_files_4053985_porsche+918+spyder+2016.obj.meta
+    - Assets/ExampleAssets/Models/warehouse_fbx.fbx
+    - Assets/ExampleAssets/Models/warehouse_fbx.fbx.meta
+    - Assets/ExampleAssets/Prefabs.meta
+    - Assets/ExampleAssets/Prefabs/XRControllerLeft.prefab
+    - Assets/ExampleAssets/Prefabs/XRControllerLeft.prefab.meta
+    - Assets/ExampleAssets/Prefabs/XRControllerRight.prefab
+    - Assets/ExampleAssets/Prefabs/XRControllerRight.prefab.meta
+    - Assets/ExampleAssets/Textures.meta
+    - Assets/ExampleAssets/Textures/Grid_Light_512x512.png
+    - Assets/ExampleAssets/Textures/Grid_Light_512x512.png.meta
+    - Assets/ExampleAssets/Tutorial.meta
+    - Assets/ExampleAssets/Tutorial/Images.meta
+    - Assets/ExampleAssets/Tutorial/Images/1-welcome-screen-image.png
+    - Assets/ExampleAssets/Tutorial/Images/1-welcome-screen-image.png.meta
+    - Assets/ExampleAssets/Tutorial/Images/project-header-vr.png
+    - Assets/ExampleAssets/Tutorial/Images/project-header-vr.png.meta
+    - Assets/ExampleAssets/Tutorial/VRTutorialContainer.asset
+    - Assets/ExampleAssets/Tutorial/VRTutorialContainer.asset.meta
+    - Assets/ExampleAssets/Tutorial/VRTutorialProjectSettings.asset
+    - Assets/ExampleAssets/Tutorial/VRTutorialProjectSettings.asset.meta
+    - Assets/ExampleAssets/Tutorial/VRTutorialStyle.asset
+    - Assets/ExampleAssets/Tutorial/VRTutorialStyle.asset.meta
+    - Assets/ExampleAssets/Tutorial/VRTutorialWelcomePage.asset
+    - Assets/ExampleAssets/Tutorial/VRTutorialWelcomePage.asset.meta
+    - Assets/MoveCamera.cs
+    - Assets/MoveCamera.cs.meta
+    - Assets/MovementPlayer.cs
+    - Assets/MovementPlayer.cs.meta
+    - Assets/PlayerCamera.cs
+    - Assets/PlayerCamera.cs.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/Change Scene with button.meta
+    - Assets/Scenes/ChangeSceneWithButton.cs
+    - Assets/Scenes/ChangeSceneWithButton.cs.meta
+    - Assets/Scenes/Interior 1.unity
+    - Assets/Scenes/Interior 1.unity.meta
+    - Assets/Scenes/SampleScene.unity
+    - Assets/Scenes/SampleScene.unity.meta
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Documentation.meta
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+    - Assets/TextMesh Pro/Shaders.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+    - Assets/TextMesh Pro/Sprites.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+    - Assets/XR.meta
+    - Assets/XR/Loaders.meta
+    - Assets/XR/Loaders/Oculus Loader.asset
+    - Assets/XR/Loaders/Oculus Loader.asset.meta
+    - Assets/XR/Loaders/Open XR Loader No Pre Init.asset
+    - Assets/XR/Loaders/Open XR Loader No Pre Init.asset.meta
+    - Assets/XR/Loaders/Open XR Loader.asset
+    - Assets/XR/Loaders/Open XR Loader.asset.meta
+    - Assets/XR/Settings.meta
+    - Assets/XR/Settings/Oculus Settings.asset
+    - Assets/XR/Settings/Oculus Settings.asset.meta
+    - Assets/XR/Settings/Open XR Package Settings.asset
+    - Assets/XR/Settings/Open XR Package Settings.asset.meta
+    - Assets/XR/Settings/OpenXR Editor Settings.asset
+    - Assets/XR/Settings/OpenXR Editor Settings.asset.meta
+    - Assets/XR/XRGeneralSettings.asset
+    - Assets/XR/XRGeneralSettings.asset.meta
+    - Assets/XRPlatformControllerSetup.cs
+    - Assets/XRPlatformControllerSetup.cs.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/MemorySettings.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
